@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+/* header/nav STYLES START */
+header {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 48px; 
+    color: white;
+    display: inline-block;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right:20px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul {
+    float: right;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    text-decoration: underline;
+}
+
+/* PADDING BETWEEN EACH SECTION start */
+section {
+    padding: 60px; 
+}
+/* PADDING BETWEEN EACH SECTION end */
+
+.hero {
+    background-image: url(../images/downtown-new.png);
+    height: 252px;
+    width: 1536px; 
+}
+
+.sub-hero {
+    border: 2px solid;
+    width: 200px; 
+    height: 50px;
+    display: block;
+    float: right;
+    margin: 100px 100px;
+    background-color: white;
+}
+
+.sub-hero h3 {
+    font-size: 35px;
+    padding: 5px;
+    margin: -2px 3px;
+}
