@@ -58,17 +58,18 @@ header nav ul li a {
 
 /* PADDING BETWEEN EACH SECTION start */
 section {
-    padding: 60px; 
+    padding: 30px; 
 }
 /* PADDING BETWEEN EACH SECTION end */
 
+/* HERO/SUBTITLE STYLES start */
 .hero {
     background-image: url(../images/downtown-new.png);
-    height: 252px;
+    height: 200px;
     width: 1536px; 
 }
 
-.sub-hero {
+.hero-cta {
     border: 2px solid;
     width: 200px; 
     height: 50px;
@@ -78,8 +79,45 @@ section {
     background-color: white;
 }
 
-.sub-hero h3 {
+.hero-cta h3 {
     font-size: 35px;
     padding: 5px;
     margin: -2px 3px;
 }
+/* HERO/SUBTITLE STYLES end */
+
+/* ABOUT ME section STYLES start */
+.about-me-section {
+    height: 300px;
+    width: 100%;
+}
+
+.about-me {
+    height: 250px;
+    width: 300px;
+    margin: 0px;
+    background-color: white;
+    float: left;
+    border-right: 5px solid;
+}
+
+.about-me h3 {
+    float: right;
+    margin: 0px 20px;
+    font-size: 60px;
+    padding: 5px;
+}
+
+.about-me-text {
+    margin: 0px 100px;
+    width: 90%;
+}
+
+.about-me-text p {
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-left: 230px;
+    padding: 10px;
+}
+/* ABOUT ME section STYLES end */
