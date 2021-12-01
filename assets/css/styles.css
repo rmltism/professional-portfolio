@@ -66,7 +66,7 @@ section {
 .hero {
     background-image: url(../images/downtown-new.png);
     height: 200px;
-    width: 1536px; 
+    width: 1519px; 
 }
 
 .hero-cta {
@@ -90,13 +90,13 @@ section {
 .about-me-section {
     height: 300px;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .about-me {
     height: 250px;
     width: 300px;
     margin: 0px;
-    background-color: white;
     float: left;
     border-right: 5px solid;
 }
@@ -125,6 +125,7 @@ section {
     background-color: white;
     height: 1000px;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .work {
@@ -139,12 +140,14 @@ section {
     float: right;
     margin: 0px 20px;
     font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .projects {
-    width: 1125px;
+    width: 1120px;
     height: 1000px;
     float: right;
+    background-color: gray;
 }
 
 .primary-project {
@@ -162,9 +165,50 @@ section {
     background-color: #39a6b2;
 }
 
-.project-language h4, h5 {
+.project-language h4 p {
     color: #024e76;
     margin-left: 10px;
     margin-top: 5px;
 }
 
+.secondary-projects {
+    width: 1120px;
+    height: 400px;
+    padding: 40px;
+}
+
+.secondary-project-1 {
+    float: left;
+    height: 200px;
+    width: 50%;
+    margin: -20px;
+    margin-top: -50px;
+    background-image: url(../images/sec-proj-1.png);
+}
+
+.secondary-project-2 {
+    float: right;
+    height: 200px;
+    width: 50%;  
+    margin: -20px;
+    margin-top: -50px;
+    background-image: url(../images/sec-proj-2.png);
+}
+
+.secondary-project-3 {
+    float: left;
+    height: 200px;
+    width: 50%;
+    margin: -20px;
+    margin-top: 50px;
+    background-image: url()
+}
+
+.secondary-project-4 {
+    float: right;
+    height: 200px;
+    width: 50%;  
+    margin: -20px;
+    margin-top: 50px;
+    background-image: url()
+}
